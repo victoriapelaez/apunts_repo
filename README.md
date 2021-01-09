@@ -1,4 +1,3 @@
-apunts_repo
 # Proyecto de Entornos de desarrollo
 
 ## Desarrollo de  aplicaciones web
