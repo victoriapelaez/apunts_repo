@@ -1,3 +1,9 @@
+a:link, a:visited, a:active {
+    /*Eliminamos el subrayado de los enlaces*/
+    text-decoration: none;
+    color: black;
+}
+
 header img {
     /* Definimos el tamaño de la imagen de la cabecera */
     width: 100%;
@@ -35,7 +41,19 @@ li.headerList a:hover {
     background-color: #111111;
 }
 
-a:link, a:visited, a:active {
-    /*Eliminamos el subrayado de los enlaces*/
-    text-decoration: none;
+.container {
+    /* Container holding the image and the text */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.pageTitle {
+    /* Page title centered into the header image */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30pt;
 }

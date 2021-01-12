@@ -14,13 +14,13 @@
     
     <!-- Links a hojas de estilo, imágenes y/o scripts -->
     <link rel="shortcut icon" href="img/codificacion.png">
-    <link rel="stylesheet" href="css/asignaturas.css">
+    <link rel="stylesheet" href="css/hojaEstilo.css">
 </head>
 
 <body>
     <!-- Cabecera con los enlaces a las distintas páginas de cada asignatura. Contiene una imagen de cabecera -->
     <header>
-        <nav>
+        <nav class="headerContainer">
             <ul>
                 <li class="headerList"><a href="index.html">Página Principal</a></li>
                 <li class="headerList"><a href="Entornos.html"> Entornos de Desarrollo</a></li>
@@ -29,36 +29,41 @@
                 <li class="headerList"><a href="Administraciondesistemas.html">Administración de Sistemas</a></li>
                 <li class="headerList"><a href="Basededatos.html">Base de Datos</h3></li>
             </ul>
-            <img src="img/kaleidico-wnf_LJiJG0E-unsplash.jpg" alt="Image not found">
-        </nav>
-    </header>
+        
 
-    <!-- Sección de los contenidos de la página -->
-    <!-- TODO: mover título y lista de contenido de entornos al header, de forma que se vea dentro de la imagen -->
-    <section>
-        <h1><i>ENTORNOS DE DESARROLLO</i></h1>
-        <p>En la primera evaluación estos han sido los apartados aprendidos:</p>
-        <nav>
-            <ol>
-                <li><a href="#desarrolloPrograma">Desarrollo de un programa</a></li>
-                <br>
-                <ul>
-                    <li><a href="#lenguajesProgramacion">Lenguajes de programación</a></li>
-                    <li><a href="#fasesDesarrollo">Fases del desarrollo</a></li>
-                    <li><a href="#modelosDesarrollo">Modelos de desarrollo</a></li>
-                    <li><a href="#rolesDesarrollo">Roles en el desarrollo</a></li>
-                    <li><a href="#metodologiasAgiles">Metodologías ágiles</a></li>
-                </ul>
-                <br>
-                <li><a href="#uml">UML</a></li>
-                <br>
-                <ul>
-                    <li><a href="#diagramasActividades">Diagramas de actividades</a></li>
-                    <li><a href="#diagramasUso">Diagramas de uso</a></li>
-                </ul>
-            </ol>
+            <!-- Imagen de cabecera -->
+            <img src="img/kaleidico-wnf_LJiJG0E-unsplash.jpg" alt="Image not found">
+
+            <!-- Título de la cabecera -->
+            <div class="pageTitle">
+                <h1><i>ENTORNOS DE DESARROLLO</i></h1>
+            </div>
         </nav>
-    </section>
+        </header>
+        
+        <!-- Sección de los contenidos de la página -->
+        <section>
+            <nav>
+                <ol>
+                    <li><a href="#desarrolloPrograma">Desarrollo de un programa</a></li>
+                    <br>
+                    <ul>
+                        <li><a href="#lenguajesProgramacion">Lenguajes de programación</a></li>
+                        <li><a href="#fasesDesarrollo">Fases del desarrollo</a></li>
+                        <li><a href="#modelosDesarrollo">Modelos de desarrollo</a></li>
+                        <li><a href="#rolesDesarrollo">Roles en el desarrollo</a></li>
+                        <li><a href="#metodologiasAgiles">Metodologías ágiles</a></li>
+                    </ul>
+                    <br>
+                    <li><a href="#uml">UML</a></li>
+                    <br>
+                    <ul>
+                        <li><a href="#diagramasActividades">Diagramas de actividades</a></li>
+                        <li><a href="#diagramasUso">Diagramas de uso</a></li>
+                    </ul>
+                </ol>
+            </nav>
+        </section>
 
     <!-- Sección de desarrollo de un programa con las distintas subsecciones -->
     <section>
