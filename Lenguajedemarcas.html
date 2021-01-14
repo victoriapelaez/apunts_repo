@@ -1,26 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Características para la visualización de la web -->
     <meta charset="UTF-8">
-    <title>Página Lenguaje de marcas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Añadimos título, meta-descripción, palabras clave y autores -->
+    <title>Asignatura Lenguaje de marcas</title>
+    <meta name="description" content="Descripción de los contenidos de la asignatura de Lenguaje de marcas.">
+    <meta name="keywords" content="lenguaje, desarrollo, web">
+    <meta name="author" content="Victoria Pelaez & Antonio Morell">
+
+    <!-- Links a hojas de estilo, imágenes y/o scripts -->
+    <link rel="shortcut icon" href="img/codificacion.png">
+    <link rel="stylesheet" href="css/hojaEstilo.css">
 </head>
+
 <body>
+<!-- Cabecera con los enlaces a las distintas páginas de cada asignatura. Contiene una imagen de cabecera -->
 <header>
-    <ul>
-        <li><h3><a href="index.html">Página Principal</a></h3></li>
-        <li><h3><a href="Entornos.html"> Entornos de Desarrollo</a></h3></li>
-        <li><h3><a href="Programacion.html">Programación</a></h3></li>
-        <li><h3><a href="Lenguajedemarcas.html">Lenguaje de Marcas</a></h3></li>
-        <li><h3><a href="Administraciondesistemas.html">Administración de Sistemas</a></h3></li>
-        <li><h3><a href="Basededatos.html">Base de Datos</a></h3></li>
-    </ul><br>
+    <nav class="headerContainer">
+        <ul>
+            <li class="headerList"><a href="index.html">Página Principal</a></li>
+            <li class="headerList"><a href="Entornos.html"> Entornos de Desarrollo</a></li>
+            <li class="headerList"><a href="Programacion.html">Programación</a></li>
+            <li class="headerList"><a href="Lenguajedemarcas.html">Lenguaje de Marcas</a></li>
+            <li class="headerList"><a href="Administraciondesistemas.html">Administración de Sistemas</a></li>
+            <li class="headerList"><a href="Basededatos.html">Base de Datos</a></li>
+        </ul>
+
+
+        <!-- Imagen de cabecera -->
+        <img src="img/kaleidico-wnf_LJiJG0E-unsplash.jpg" alt="Image not found">
+
+        <!-- Título de la cabecera -->
+        <div class="pageTitle">
+            <h1><i>LENGUAJE DE MARCAS</i></h1>
+        </div>
+    </nav>
 </header>
-<h1><i>LENGUAJE DE MARCAS</i></h1>
-<p>En la primera evalución estos son los conocimientos adquiridos: </p>
-<ol>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Implementación de HTML i CSS</li>
-</ol>
+
+<!-- Sección de los contenidos de la página -->
+<section>
+    <nav>
+        <ol>
+            <li><a href="#lenguajeHtml">El lenguaje HTML</a></li>
+            <br>
+            <ul>
+                <li><a href="#sintaxisEstructura">Sintaxis y estructura.</a></li>
+                <li><a href="#etiquetasComentarios">Etiquetas de texto, comentarios, colores e imágenes.</a></li>
+                <li><a href="#listasTablas">Listas y tablas.</a></li>
+                <li><a href="#videoAudio">videoAudio</a></li>
+                <li><a href="#etiquetasSemanticas">etiquetasSemanticas</a></li>
+            </ul>
+            <br>
+            <li><a href="#css">Estilo con CSS</a></li>
+            <br>
+            <ul>
+                <li><a href="#sintaxisCss">Sintaxis, estructura, atributos globales, selectores y ubicación.</a></li>
+                <li><a href="#cascadaHerencia">Cascada y herencia.</a></li>
+            </ul>
+        </ol>
+    </nav>
+</section>
+
+<!-- Sección de Html con las distintas subsecciones -->
+<section>
+    <h2 id="lenguajeHtml">El lenguaje HTML</h2>
+    <section>
+        <h3 id="sintaxisEstructura">Sintaxis y estructura.</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia atque ut, ducimus dignissimos placeat molestiae vitae voluptatem maiores aliquid reprehenderit eligendi illo eius architecto cumque adipisci sapiente quidem neque obcaecati!</p>
+    </section>
+    <section>
+        <h3 id="etiquetasComentarios">Etiquetas de texto, comentarios, colores e imágenes.</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic odit commodi sequi corrupti maiores, porro recusandae aut laudantium in animi deleniti harum tempora reprehenderit non cumque necessitatibus deserunt quam at.</p>
+    </section>
+    <section>
+        <h3 id="listasTablas">Listas y tablas.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magnam ipsa assumenda modi laboriosam sint fugiat cum vel fugit velit, distinctio qui voluptates architecto ex laudantium accusamus dolor illum neque.</p>
+    </section>
+    <section>
+        <h3 id="videoAudio">Vídeo y Audio.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum dicta ipsam. Voluptatum numquam aut quasi ratione quisquam minima perferendis iusto, corrupti consectetur blanditiis aliquam corporis laboriosam? Laboriosam, deleniti ea.</p>
+    </section>
+    <section>
+        <h3 id="etiquetasSemanticas">Etiquetas semánticas.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum voluptatem enim fugiat totam atque sapiente amet, unde placeat libero consectetur? Sit, quidem! Dicta exercitationem eum velit eius, beatae aperiam soluta.</p>
+    </section>
+</section>
+
+<!-- Sección de CSS con las distintas subsecciones -->
+<section>
+    <h2 id="css">Estilo con CSS</h2>
+    <section>
+        <h3 id="sintaxisCss">Sintaxis, estructura, atributos globales, selectores y ubicación.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatum incidunt modi. Reprehenderit soluta vitae quidem fugiat? Perferendis sint, dignissimos dicta, iure ut dolorem quia explicabo minima natus ducimus tempora.</p>
+    </section>
+    <section>
+        <h3 id="cascadaHerencia">Cascada y herencia.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sequi corrupti ad culpa mollitia beatae fuga distinctio porro nisi rem earum dignissimos at vitae, deserunt officia hic? Magnam, ratione maiores?</p>
+    </section>
+</section>
 </body>
+
+<footer>
+    Victoria Pelaez & Antonio Morell
+</footer>
+
 </html>
